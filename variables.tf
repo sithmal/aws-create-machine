@@ -22,8 +22,3 @@ variable "key_path" {
   description = "SSH Public Key path"
   default = "keys/assurity_1.pub"
 }
-
-variable "ssh_private_key" {
-  description     = "Private key"
-  default         = "keys/assurity_1.pem"
-}
