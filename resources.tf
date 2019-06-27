@@ -15,6 +15,10 @@ resource "aws_instance" "assurity-pub" {
   source_dest_check = false
   user_data = "${file("install.sh")}"
 
+
+
+
+
   tags {
     Name = "assurity-machine-1"
   }
